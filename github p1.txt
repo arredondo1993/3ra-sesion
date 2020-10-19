@@ -1,5 +1,6 @@
  comandos git
 
+## linea añadida para probar pull
 git --version 
 cd ~/Desktop
 mkdir git-carpeta // crea directorio
