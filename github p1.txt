@@ -1,5 +1,5 @@
  comandos git
-
+## recuerden agregar todo
 
 git --version 
 cd ~/Desktop
