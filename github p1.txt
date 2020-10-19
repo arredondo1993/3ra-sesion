@@ -1,6 +1,6 @@
  comandos git
 
-## linea añadida para probar pull
+
 git --version 
 cd ~/Desktop
 mkdir git-carpeta // crea directorio
@@ -13,7 +13,16 @@ git status // estado
 echo "curso git" > file.txt  // crea cadena de caracteres y guarda en archivo
 ls // muestra archivos en directorio local
 
-### guardar 1ra version
+
+Crear una nueva rama (rama_2) y cambiarse a ella:
+$ git checkout –b rama_2
+Volver a la rama principal:
+$ git checkout master
+Borrar rama:
+$ git branch –d rama_2
+PUSH para disponibilizar tu nueva rama:
+$ git push origin <branch>                    // <branch> se debe reemplazar por el 						 nombre de la nueva rama
+
 
 git add file.txt // añade archivo a repo git
 git commit -m "Este es el primer commit"  // un commit "guarda" en el repo de git los cambios al archivo
@@ -41,3 +50,4 @@ git log   // ver el "historial" de cambios en el repo git
 git show 8d28a21f71ec5657a2f5421e03faad307d9eec6f // muestra detalle de commit
 
 ## 
+
